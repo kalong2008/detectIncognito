@@ -79,3 +79,5 @@ If you are aware of any modern browsers this script does not work with, please l
 Copyright (c) 2024 Joe Rutkowski
 
 Released under [MIT License](https://opensource.org/license/mit-0/)
+
+run onload inline function with this library [https://stackoverflow.com/questions/4342124/inline-event-handlers-and-anonymous-functions]
