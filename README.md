@@ -80,4 +80,17 @@ Copyright (c) 2024 Joe Rutkowski
 
 Released under [MIT License](https://opensource.org/license/mit-0/)
 
-run onload inline function with this library [https://stackoverflow.com/questions/4342124/inline-event-handlers-and-anonymous-functions]
+## Added Reference
+
+run onload inline function with this library [Link](https://stackoverflow.com/questions/4342124/inline-event-handlers-and-anonymous-functions)
+```
+<html>
+    <body>
+        <!-- call the function and set the this accordingly-->
+        <img src="foo.png" onload="(function(){...}).call(this)" />
+
+        <!-- pass the this as a parameter -->
+        <img src="foo.png" onload="(function(e){....})(this)" />
+    </body>
+</html>
+```
